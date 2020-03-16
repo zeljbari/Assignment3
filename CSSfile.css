@@ -1,0 +1,113 @@
+body,
+html{
+    height: 100%
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baskerville Old Face';
+}
+
+.heading {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../rent-out-house-considerations-landlords-1068x713.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+    ul li {
+        display: inline-block;
+    }
+
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border: 1px solid;
+            transition: 0.6s ease;
+        }
+
+            ul li a:hover {
+                background-color: #fff;
+                color: #000;
+            }
+
+        ul li.active a {
+            background-color: #fff;
+            color: #000;
+        }
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 0;
+    margin-left:0;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.title {
+    
+}
+
+    .title h1 {
+        color: #fff;
+        font-size: 57px;
+    }
+
+.main1 {
+    position:absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,50%)
+}
+
+    .main1 p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+h2{
+    color:white;
+    font-size: inherit;
+}
+p{
+    color:white;
+    font-size:inherit;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top:100px;
+    margin-left:0;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+    
+}
+
+.table-title {
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+}
